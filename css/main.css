@@ -1,0 +1,12 @@
+:root {
+    --color1: #003C43;
+    --color2: #135D66;
+    --color3: #77B0AA;
+    --color4: #E3FEF7;
+    --nuetral: #dbdbdb;
+    --nuetral2: #252525;
+}
+
+body {
+    background-color: var(--color1);
+}
