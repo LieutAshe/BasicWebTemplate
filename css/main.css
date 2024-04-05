@@ -20,10 +20,8 @@ header {
     background-color: var(--color3);
     & .brand {
         color: var(--color4);
-        & p {
-            margin: 0;
-            font-size: 2rem;
-            font-weight: bold;
-        }
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
