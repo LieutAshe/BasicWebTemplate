@@ -1,2 +1,3 @@
 # BasicWebTemplate
-A template with basic structure, styles and functions by adrian nicolas
+A template with basic structure, styles and functions by Adrian Nicolas - Lieut Ashe.
+If planning to use, feel free to, but credit Lieut Ashe at the footer of your website.
