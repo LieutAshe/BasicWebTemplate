@@ -15,12 +15,13 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color: var(--color3);
     & .brand {
         color: var(--color4);
-        margin: 0;
+        margin: auto auto;
+        margin-left: 10px;
         font-size: 2rem;
         font-weight: bold;
     }
