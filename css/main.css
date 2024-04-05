@@ -9,4 +9,15 @@
 
 body {
     background-color: var(--color1);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: var(--color3);
+    & .brand {
+        color: var(--color4);
+    }
 }
