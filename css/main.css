@@ -3,8 +3,13 @@
     --color2: #135D66;
     --color3: #77B0AA;
     --color4: #E3FEF7;
-    --nuetral: #dbdbdb;
+    --nuetral: #d6d6d6;
     --nuetral2: #252525;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -15,15 +20,31 @@ body {
 }
 
 header {
-    height: 60px;
+    height: 50px;
     width: 100%;
     background-color: var(--color3);
-    & .brand {
-        color: var(--color4);
-        height: 60px;
-        margin: auto auto;
-        margin-left: 15px;
-        font-size: 2rem;
+    box-shadow: var(--color2) 0px 1px 10px 1px;
+}
+
+.brand {
+    color: var(--nuetral);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.navigations {
+    position: absolute;
+    color: var(--nuetral2);
+    top: 15px;
+    right: 25px;
+    & a {
+        margin-left: 10px;
+    }
+
+    & #active {
+        color: var(--nuetral);
         font-weight: bold;
     }
 }
