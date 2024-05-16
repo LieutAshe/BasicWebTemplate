@@ -30,7 +30,7 @@
         </div>
     </header>
     <section class="front">
-        <div class="circle">
+        <!-- <div class="circle">
             <img src="./sources/img/sample1.jpg" alt="">
         </div>
 
@@ -41,9 +41,15 @@
         <div class="blob"></div>
         <div class="blob"></div>
         <div class="blob"></div>
-        <div class="blob"></div>
+        <div class="blob"></div> -->
+        <form onsubmit="display()">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="button" onclick="signInWithEmailAndPassword()">Log In</button>
+        </form>
     </section>
-    <button onclick="doesNothing()">ahsd</button>
-    <script src="../server.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
